@@ -1,5 +1,4 @@
-const input = require('./input.js');
-
+const input = require('./Inputs/day2In.js');
 
 const lines = input.split("\n");
 
@@ -21,11 +20,9 @@ function part1(){
         const cubeSets = withoutGameNum.split(";");
         const cubes = cubeSets.flatMap(set => set.split(","));
         for(let cube of cubes) {
-            console.log(cube);
             const [num, colour] = cube.trim().split(" ");
             const parsed = parseInt(num);
             if(parsed > max[colour]){
-                console.log("game index ", index, "is impossible");
                 possible = false;
                 break;
             }

@@ -1,4 +1,4 @@
-const input = require('./input.js');
+const input = require('./Inputs/day1In.js');
 
 
 const lines = input.split("\n");

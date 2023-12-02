@@ -3,10 +3,11 @@ const input = require('./input.js');
 
 const lines = input.split("\n");
 
-//part 1
+
 function part1(){
     
 }
+
 
 function part2(){
     

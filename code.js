@@ -5,7 +5,6 @@ const lines = input.split("\n");
 
 
 function part1(){
-
 }
 
 

@@ -1,7 +1,7 @@
 const input = require('./input.js');
 
 
-const lines = input.split("\n");
+const sections = input.split("\n");
 
 
 function part1(){
